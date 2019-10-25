@@ -1,0 +1,27 @@
+.background-card {
+/*     --background: #ffc15e;
+    --color: #1f1300; */
+    --background: var(--ion-color-secondary);
+    --color: var(--ion-color-marroncito-contrast);
+  }
+  
+  ion-card,
+  ion-card-title,
+  ion-label,
+  div {
+    --color: #1f1300 !important;
+    color: #1f1300 !important;
+    
+  }
+  
+  .img-logo {
+    height: 4rem;
+    width: auto;
+  }
+
+.textogrande{
+    font-size: 18px;
+    }
+.textoWruande{
+    font-size: 50px;
+}
