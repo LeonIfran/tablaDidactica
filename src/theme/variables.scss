@@ -2,20 +2,6 @@
 // http://ionicframework.com/docs/theming/
 
 @font-face {
-  font-family: "someAnimal";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../assets/fonts/someAnimal/Some_Animal.ttf");
-}
-
-@font-face {
-  font-family: "market";
-  font-style: normal;
-  font-weight: normal;
-  src: url("../assets/fonts/farm_to_market/Farm\ to\ Market.ttf");
-}
-
-@font-face {
   font-family: "duality";
   font-style: normal;
   font-weight: normal;
@@ -82,6 +68,7 @@
 
   /* --ion-font-family: "someAnimal"; */
   --ion-font-family: "duality";
+
   --ion-color-rojodesa: #b35d65;
   --ion-color-rojodesa-rgb: 179,93,101;
   --ion-color-rojodesa-contrast: #ffffff;
