@@ -1,8 +1,8 @@
 .buttons {
-    background-color: #f7934c;
+    background-color: var(--ion-color-secondary);
     border: none;
     border-radius: 1rem;
-    color: #692523;
+    color: var(--ion-color-secondary-shade);
     padding: 1rem 2rem;
     text-align: center;
     font-size: 1rem;
@@ -14,8 +14,8 @@
   .buttons:active {
     background-size: 100%;
     transition: background 0s;
-    background-color: #fff48d;
-    color: #692523;
+    background-color: #be80c3/* var(--ion-color-tertiary) */;
+    color: /* #692523 */var(--ion-color-tertiary-contrast);
   }
   
   .border-img-portrait {

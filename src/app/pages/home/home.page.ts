@@ -14,7 +14,7 @@ export class HomePage {
   // tslint:disable: variable-name
   private _objetos: Array<string[]> = [
     ['uno', 'dos', 'tres', 'cuatro', 'cinco'],
-    ['ballena', 'gato', 'mono', 'pajaro', 'perro'],
+    ['pato', 'gato', 'serpiente', 'pajaro', 'vaca'],
     ['amarillo', 'azul', 'rojo', 'verde', 'violeta'],
   ];
   private _lenguaje = 'ar';
@@ -53,23 +53,23 @@ export class HomePage {
 
     //#region Animales
     // Animales AR
-    this._nativeAudio.preloadSimple('ballena_ar', 'assets/sonidos/ani/ballena_ar.mp3');
+    this._nativeAudio.preloadSimple('pato_ar', 'assets/sonidos/ani/pato_ar.mp3');
     this._nativeAudio.preloadSimple('gato_ar', 'assets/sonidos/ani/gato_ar.mp3');
-    this._nativeAudio.preloadSimple('mono_ar', 'assets/sonidos/ani/mono_ar.mp3');
+    this._nativeAudio.preloadSimple('serpiente_ar', 'assets/sonidos/ani/serpiente_ar.mp3');
     this._nativeAudio.preloadSimple('pajaro_ar', 'assets/sonidos/ani/pajaro_ar.mp3');
-    this._nativeAudio.preloadSimple('perro_ar', 'assets/sonidos/ani/perro_ar.mp3');
+    this._nativeAudio.preloadSimple('vaca_ar', 'assets/sonidos/ani/vaca_ar.mp3');
     // Animales EN
-    this._nativeAudio.preloadSimple('ballena_en', 'assets/sonidos/ani/ballena_en.mp3');
+    this._nativeAudio.preloadSimple('pato_en', 'assets/sonidos/ani/pato_en.mp3');
     this._nativeAudio.preloadSimple('gato_en', 'assets/sonidos/ani/gato_en.mp3');
-    this._nativeAudio.preloadSimple('mono_en', 'assets/sonidos/ani/mono_en.mp3');
+    this._nativeAudio.preloadSimple('serpiente_en', 'assets/sonidos/ani/serpiente_en.mp3');
     this._nativeAudio.preloadSimple('pajaro_en', 'assets/sonidos/ani/pajaro_en.mp3');
-    this._nativeAudio.preloadSimple('perro_en', 'assets/sonidos/ani/perro_en.mp3');
+    this._nativeAudio.preloadSimple('vaca_en', 'assets/sonidos/ani/vaca_en.mp3');
     // Animales POR
-    this._nativeAudio.preloadSimple('ballena_por', 'assets/sonidos/ani/ballena_por.mp3');
+    this._nativeAudio.preloadSimple('pato_por', 'assets/sonidos/ani/pato_por.mp3');
     this._nativeAudio.preloadSimple('gato_por', 'assets/sonidos/ani/gato_por.mp3');
-    this._nativeAudio.preloadSimple('mono_por', 'assets/sonidos/ani/mono_por.mp3');
+    this._nativeAudio.preloadSimple('serpiente_por', 'assets/sonidos/ani/serpiente_por.mp3');
     this._nativeAudio.preloadSimple('pajaro_por', 'assets/sonidos/ani/pajaro_por.mp3');
-    this._nativeAudio.preloadSimple('perro_por', 'assets/sonidos/ani/perro_por.mp3');
+    this._nativeAudio.preloadSimple('vaca_por', 'assets/sonidos/ani/vaca_por.mp3');
     //#endregion
 
     //#region Colores

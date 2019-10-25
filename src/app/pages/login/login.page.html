@@ -44,12 +44,12 @@
           </ion-item>
           <ion-row class="ion-justify-content-center">
             <ion-col class="ion-text-center">
-              <ion-button color="light" shape="round"
+              <ion-button color="tertiary" shape="round"
                 [disabled]="!this.formGroup.valid"
                 (click)="iniciarSesion()">Entrar</ion-button>
             </ion-col>
             <ion-col class="ion-text-center">
-              <ion-button color="dark" shape="round" type="reset"
+              <ion-button color="warning" shape="round" type="reset"
                 (click)="this.limpiarForm()">Borrar</ion-button>
             </ion-col>
           </ion-row>
@@ -65,7 +65,7 @@
           <ion-row class="ion-justify-content-center">
             <div *ngFor="let user of this.userList">
               <div class="ion-text-center">
-                <ion-button color="coralred" (click)="rellenarCampos(user)"
+                <ion-button color="rojodesa" (click)="rellenarCampos(user)"
                   expand="block" shape="round" size="small">{{user}}</ion-button>
               </div>
             </div>

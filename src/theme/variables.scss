@@ -47,12 +47,14 @@
   --ion-color-success-contrast-rgb: 0,0,0; 
   --ion-color-success-shade: #71ac89; 
   --ion-color-success-tint: #8dc9a6;
-  --ion-color-warning: #ffce00;
-  --ion-color-warning-rgb: 255,206,0; 
+  
+  --ion-color-warning: #e7dd5c; 
+  --ion-color-warning-rgb: 231,221,92; 
   --ion-color-warning-contrast: #000000; 
   --ion-color-warning-contrast-rgb: 0,0,0; 
-  --ion-color-warning-shade: #e0b500; 
-  --ion-color-warning-tint: #ffd31a; 
+  --ion-color-warning-shade: #cbc251; 
+  --ion-color-warning-tint: #e9e06c;
+  
   --ion-color-danger: #c38086; 
   --ion-color-danger-rgb: 195,128,134; 
   --ion-color-danger-contrast: #000000; 
@@ -80,6 +82,12 @@
 
   /* --ion-font-family: "someAnimal"; */
   --ion-font-family: "duality";
+  --ion-color-rojodesa: #b35d65;
+  --ion-color-rojodesa-rgb: 179,93,101;
+  --ion-color-rojodesa-contrast: #ffffff;
+  --ion-color-rojodesa-contrast-rgb: 255,255,255;
+  --ion-color-rojodesa-shade: #9e5259;
+  --ion-color-rojodesa-tint: #bb6d74;
 
   --ion-color-marroncito: #bc9171;
   --ion-color-marroncito-rgb: 188,145,113;
@@ -87,7 +95,7 @@
   --ion-color-marroncito-contrast-rgb: 0,0,0;
   --ion-color-marroncito-shade: #a58063;
   --ion-color-marroncito-tint: #c39c7f;
-  
+
 }
 
 .ion-color-marroncito {
@@ -97,4 +105,21 @@
   --ion-color-contrast-rgb: var(--ion-color-marroncito-contrast-rgb);
   --ion-color-shade: var(--ion-color-marroncito-shade);
   --ion-color-tint: var(--ion-color-marroncito-tint);
+}
+
+.ion-color-rojodesa {
+  --ion-color-base: var(--ion-color-rojodesa);
+  --ion-color-base-rgb: var(--ion-color-rojodesa-rgb);
+  --ion-color-contrast: var(--ion-color-rojodesa-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-rojodesa-contrast-rgb);
+  --ion-color-shade: var(--ion-color-rojodesa-shade);
+  --ion-color-tint: var(--ion-color-rojodesa-tint);
+}
+.ion-color-coralred {
+  --ion-color-base: #ff3c38;
+  --ion-color-base-rgb: 255, 60, 56;
+  --ion-color-contrast: #ffffff;
+  --ion-color-contrast-rgb: 255, 255, 255;
+  --ion-color-shade: #e03531;
+  --ion-color-tint: #ff504c;
 }
